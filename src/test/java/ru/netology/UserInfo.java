@@ -1,4 +1,4 @@
-package ru.netology.test_mode;
+package ru.netology;
 
 public class UserInfo {
     private final String login;

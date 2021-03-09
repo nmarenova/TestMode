@@ -1,15 +1,13 @@
-
-
+package ru.netology;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Condition.visible;
 import static com.codeborne.selenide.Selectors.withText;
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.open;
-import static ru.netology.test_mode.DataGenerator.Registration.*;
+import static ru.netology.DataGenerator.Registration.*;
 
 
 public class AuthTest {

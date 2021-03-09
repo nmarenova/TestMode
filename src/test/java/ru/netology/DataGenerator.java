@@ -1,4 +1,4 @@
-package ru.netology.test_mode;
+package ru.netology;
 
 import com.github.javafaker.Faker;
 import io.restassured.builder.RequestSpecBuilder;
@@ -10,7 +10,7 @@ import java.util.Locale;
 
 import static io.restassured.RestAssured.enableLoggingOfRequestAndResponseIfValidationFails;
 import static io.restassured.RestAssured.given;
-import static ru.netology.test_mode.DataGenerator.SendQuery.makeRequest;
+import static ru.netology.DataGenerator.SendQuery.makeRequest;
 
 
 
